@@ -1,0 +1,10 @@
+carro=input('Digite qualquer coisa: ')
+print('O tipo primitivo desse valor é: ',type(carro))
+print('Só tem espaços?, ',carro.isspace())
+print('É um número? 5',carro.isnumeric())
+print('É alfabético? ',carro.isalpha())
+print('É alphanúmerico ?',carro.isalnum())
+print('Está em maiúsculas ?',carro.isupper())
+print('Está em minúsculas ?',carro.islower())
+print('Está capitalizada ?',carro.istitle())
+
