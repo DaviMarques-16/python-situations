@@ -1,2 +1,3 @@
-nome: str = input('Qual seu nome, querido? ')
-print(f'Bem vindo, {nome}')
+nome = str(input('Digite seu nome: '))
+print('Boas vindas ao python novamente,', nome)
+print(f'Boas vindas ao python novamente, {nome}!')
